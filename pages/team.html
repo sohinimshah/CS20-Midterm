@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steer My Event</title>
+    <title>SteerMyEvent</title>
+
+    <link rel = "stylesheet" href = "../styles/style.css" />
+    <script src="###"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
     <link rel = "stylesheet" href = "../styles/style.css" />
     <script src="###"></script>
@@ -37,26 +44,35 @@
     </style>
 </head>
 <body>
-    <header>
-        <a id="logo" href="home.html"> 
-            <img src="../images/logo.png" />
-        </a>
-        <a id="about" href="team.html"> The Team </a>
-        <a id="services" href="services.html"> Services </a>
-        <a id="testimonials
-        " href="testimonials.html"> Testimonials</a>
-        <a id="inquire" href="inquire.html"> Inquire</a>
-        <a id="contact" href="contact.html"> Contact Us</a>
-    </header>
+    <div class="fixed-header">
+        <nav>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a class="active" href="team.html">Team</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="inquire.html">Inquires</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <header>
+            <a id="logo" href="home.html" style="position: absolute; top: 115px; right: 30px;"> 
+                <img src="../images/logo.jpg" width="100" height="100"/>
+            </a>
+            <h1 style="font-size: 90px; text-align: center; ">SteerMyEvent</h1>
+            <p style="margin-top: 0px; margin-bottom: 15px; color: #C19A6B; font-style: italic;">Driving you crazy with creativity</p>
+        </header>
+    </div>
 
-    <h1> The Team </h1>
+    <div class="content">
+        <h1> The Team </h1>
 
 <div class="card">
     <div class="container">
     <h3> Sohini Shah </h3>
     <img src="###" />
     <p> 
-        Sohini is a rising senior at Tufts University majoring in Computer Science. She is the Founder and Chief Planner at SteerMyEvents. has been passionate about organizing events since she was a little kid. Always one to want to celebrate her birthday in the best possible manner since the age of 6, Sohini, a Massachusetts local, started SteerMyEvent as a 14 year-old, with the objective to change the way people approach their events. Her goal is to make the process of organizing events as pocket-friendly, stress-free, and smooth as possible, and so far, SteerMyEvent has been able to more than live up to these principles and goals.
+        Sohini is a rising senior at Tufts University majoring in Computer Science. She is the Founder and Chief Planner at SteerMyEvents. She has been passionate about organizing events since she was a little kid. Always one to want to celebrate her birthday in the best possible manner since the age of 6, Sohini, a Massachusetts local, started SteerMyEvent as a 14 year-old, with the objective to change the way people approach their events. Her goal is to make the process of organizing events as pocket-friendly, stress-free, and smooth as possible, and so far, SteerMyEvent has been able to more than live up to these principles and goals.
     </p>
 </div>
     </div>
@@ -90,6 +106,7 @@
     </p>
     </div>
 </div>
+    </div>
 
     <footer>
         <div> Steer My Event </div>
