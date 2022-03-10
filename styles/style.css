@@ -1,0 +1,23 @@
+
+header {
+    background-image: url("../images/header-bg.jpeg");
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    width: 100%;
+}
+
+/* .fixed-header{
+    width: 100%;
+    position: fixed;
+    top: 45px;
+} */
+
+body {
+    background-color: #696378;
+    color: white;
+    font-family: 'Smooch Sans', sans-serif;
+  }
