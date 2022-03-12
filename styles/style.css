@@ -57,3 +57,19 @@ body {
 .content {
     padding-top: 280px;
 }
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 5vh;
+}
+
+footer div{
+    flex: 1;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
